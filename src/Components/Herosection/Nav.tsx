@@ -7,7 +7,7 @@ import right from "/src/assets/Glow assests/right-image.png";
 
 const Nav = () => {
   return (
-    <div className="bg-gradient-to-br from-white via-white to-[#0C7638] h-[108vh] pt-6 px-4">
+    <div className="bg-gradient-to-br from-white via-white to-[#0C7638] pt-6 ">
       {/* Small screen navbar */}
       <div className="flex justify-between items-center mx-4 lg:hidden">
         <img src={menu} alt="Menu" className="w-8 h-8" />
@@ -18,7 +18,7 @@ const Nav = () => {
       </div>
 
       {/* Main content */}
-      <div className="flex flex-col items-center text-center gap-10 mt-10">
+      <div className="flex relative  flex-col items-center text-center gap-8 mt-10">
         <h1 className="text-[2.7rem] md:text-4xl font-[600] leading-[3.2rem]">
           Healthy. <span className="text-green-500">Beautiful.</span> <br /> Radiant Skin.
         </h1>
@@ -28,16 +28,16 @@ const Nav = () => {
         <button className="bg-green-800 text-[1.8rem] text-white px-4 py-1 rounded-full ">
           Shop Now
         </button>
-        <div className="w-full flex justify-center relative top-[50px]">
+        <div className="w-full  flex justify-center relative">
           <img src={female} alt="Female" className="w-[80%] max-w-[400px]"/>
+        <div className="flex bottom-0 justify-between w-full absolute">
+            <img src={right} alt="" className="h-[9rem]"/>
+            <img src={left} alt="" className="h-[9rem]"/>
         </div>
-        <div className="flex justify-between w-full relative top-[-100px]">
-            <img src={right} alt="" />
-            <img src={left} alt="" className="h-[8rem]"/>
         </div>
       </div>
         <div>
-          <ul className="flex">
+          <ul className=" h-[4rem] flex justify-around items-center text-[1.2rem]">
             <li>Nivea</li>
             <li>L'Oreal</li>
             <li>Compolitan</li>
