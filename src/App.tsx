@@ -1,7 +1,7 @@
 
 import './App.css'
 import Nav from "./Components/Herosection/Nav"
-import Main from './Components/main'
+import Main from './Components/Main'
 
 
 function App() {
