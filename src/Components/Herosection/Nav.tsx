@@ -12,8 +12,8 @@ const Nav = () => {
       <div className="flex justify-between items-center mx-4 lg:hidden">
         <img src={menu} alt="Menu" className="w-8 h-8" />
         <div className="flex gap-4">
-          <img src={search} alt="Search" className="w-6 h-6" />
-          <img src={cart} alt="Cart" className="w-6 h-6" />
+          <img src={search} alt="Search" className="w-9 h-9" />
+          <img src={cart} alt="Cart" className="w-9 h-9" />
         </div>
       </div>
 
@@ -31,8 +31,8 @@ const Nav = () => {
         <div className="w-full  flex justify-center relative">
           <img src={female} alt="Female" className="w-[80%] max-w-[400px]"/>
         <div className="flex bottom-0 justify-between w-full absolute">
-            <img src={right} alt="" className="h-[9rem]"/>
-            <img src={left} alt="" className="h-[9rem]"/>
+            <img src={right} alt="" className="h-[7rem]"/>
+            <img src={left} alt="" className="h-[7rem]"/>
         </div>
         </div>
       </div>
