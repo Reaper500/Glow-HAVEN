@@ -10,6 +10,29 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+body {
+    height: 100dvh;
+}
+
 .hide-scrollbar::-webkit-scrollbar {
     display: none; 
   }
+
+
+.back{
+        background-image: url(/dist/assets/Female-BM4tHYuD.png);
+        background-size: 20rem 25rem;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        position: relative;
+        height: 93%;
+ }     
+  
+ @media (min-width: 1024px) {
+    .big {
+        background-image: url(/dist/assets/Female-BM4tHYuD.png);
+        background-size: 60rem 70rem;
+        background-repeat: no-repeat;
+        background-position:  106%;
+    }
+ }
